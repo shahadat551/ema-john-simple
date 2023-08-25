@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from "react";
+import Header from './compoments/Header/Header';
+import Shop from './compoments/Shop/Shop';
+import Product from './compoments/product/Product';
 
 function App() {
-  const nayoks=["hero Alom","tuku","vadimma"]
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>fuck</h1>
-      </header>
+    <div>
+      <Header></Header>
+      <Shop></Shop>
     </div>
   );
 }
